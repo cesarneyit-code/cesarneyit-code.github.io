@@ -4,35 +4,30 @@ const translations = {
       role: "Profesor, Departamento de Matemáticas | Universidad de los Andes"
     },
     nav: {
-      home: "Inicio",
       bio: "Bio",
       research: "Investigación",
       teaching: "Docencia",
       publications: "Publicaciones",
+      notes: "Notas y LaTeX",
       contact: "Contacto"
     },
+    sidebar: {
+      links: "Enlaces"
+    },
     hero: {
-      eyebrow: "Sitio Académico",
       title: "Cesar Galindo",
       lead: "Profesor en la Universidad de los Andes. Investigación en categorías tensoriales, categorías de fusión y teorías topológicas cuánticas de campos, con aplicaciones a computación cuántica.",
       cv: "CV (PDF)",
-      email: "Correo Institucional",
       scholar: "Google Scholar",
       uniandes: "Perfil Uniandes",
       photoCaption: "Marcador de foto profesional. Reemplaza `docs/assets/cesar-galindo-profile.svg` por tu foto final.",
-      note: "Última actualización: marzo de 2026. Esta primera versión se construyó con información pública de Uniandes, Google Scholar, ORCID y tu sitio anterior."
+      note: "Última actualización: marzo de 2026. Diseño vintage académico con soporte de LaTeX para notas y material de clase."
     },
     bio: {
       title: "Bio",
       p1: "Soy profesor del Departamento de Matemáticas de la Universidad de los Andes (Bogotá, Colombia).",
       p2: "Obtuve el doctorado en Matemáticas en la Universidad Nacional de Córdoba (Argentina, 2009) y soy matemático de la Universidad Nacional de Colombia (2005).",
-      p3: "Mi investigación se centra en categorías tensoriales y teorías topológicas cuánticas de campos, con interés especial en aplicaciones a computación cuántica.",
-      cardTitle: "Perfil",
-      card1: "Profesor, Departamento de Matemáticas",
-      card2: "Vicedecano Académico, Facultad de Ciencias (desde 2021)",
-      card3: "Oficina H-410, extensión 3081",
-      card4: "Bogotá, Colombia",
-      uniandesLink: "Perfil oficial Uniandes"
+      p3: "Mi investigación se centra en categorías tensoriales y teorías topológicas cuánticas de campos, con interés especial en aplicaciones a computación cuántica."
     },
     research: {
       title: "Investigación",
@@ -53,8 +48,6 @@ const translations = {
       past1: "Álgebra Lineal 1 y 2, Álgebra Abstracta 1, Álgebra Conmutativa",
       past2: "Topología 1, Teoría de Números, Ecuaciones Diferenciales, Lógica 1",
       past3: "Introducción a la Teoría de Representaciones e Introducción a Computación Cuántica",
-      materialsTitle: "Materiales",
-      materialsText: "La información de cursos y actualizaciones puede centralizarse aquí o enlazarse con páginas institucionales de docencia.",
       materialsLink: "Página de docencia"
     },
     pub: {
@@ -63,9 +56,15 @@ const translations = {
       scholar: "Lista completa en Google Scholar",
       uniandes: "Perfil Uniandes"
     },
+    latex: {
+      title: "Notas y LaTeX",
+      intro: "Este sitio soporta LaTeX directamente con MathJax. Puedes escribir fórmulas inline y en bloque para notas, guías o material de curso.",
+      exampleInline: "Ejemplo inline: \\( d(X \\otimes Y) = d(X)d(Y) \\).",
+      exampleDisplay: "Ejemplo en bloque:",
+      hint: "Para agregar fórmulas, usa delimitadores `\\( ... \\)` para inline y `\\[ ... \\]` para ecuaciones en bloque en tu contenido HTML."
+    },
     contact: {
       title: "Contacto",
-      body: "Para colaboraciones, estudiantes o consultas académicas:",
       emailLabel: "Correo:",
       affLabel: "Afiliación:",
       affValue: "Universidad de los Andes",
@@ -84,35 +83,30 @@ const translations = {
       role: "Professor, Department of Mathematics | Universidad de los Andes"
     },
     nav: {
-      home: "Home",
       bio: "Bio",
       research: "Research",
       teaching: "Teaching",
       publications: "Publications",
+      notes: "Notes & LaTeX",
       contact: "Contact"
     },
+    sidebar: {
+      links: "Quick Links"
+    },
     hero: {
-      eyebrow: "Academic Website",
       title: "Cesar Galindo",
       lead: "Professor at Universidad de los Andes. Research in tensor categories, fusion categories, and topological quantum field theories, with applications to quantum computation.",
       cv: "CV (PDF)",
-      email: "Institutional Email",
       scholar: "Google Scholar",
       uniandes: "Uniandes Profile",
       photoCaption: "Professional portrait placeholder. Replace `docs/assets/cesar-galindo-profile.svg` with your final photo.",
-      note: "Last updated: March 2026. This first version was built from public information in Uniandes, Google Scholar, ORCID, and your previous website."
+      note: "Last updated: March 2026. Academic vintage layout with LaTeX support for notes and teaching material."
     },
     bio: {
       title: "Bio",
       p1: "I am a professor in the Department of Mathematics at Universidad de los Andes (Bogotá, Colombia).",
       p2: "I received a Ph.D. in Mathematics from Universidad Nacional de Córdoba (Argentina, 2009) and a B.Sc. in Mathematics from Universidad Nacional de Colombia (2005).",
-      p3: "My research focuses on tensor categories and topological quantum field theories, with special interest in applications to quantum computation.",
-      cardTitle: "Profile",
-      card1: "Professor, Department of Mathematics",
-      card2: "Academic Vice-Dean, Faculty of Sciences (since 2021)",
-      card3: "Office H-410, extension 3081",
-      card4: "Bogotá, Colombia",
-      uniandesLink: "Official Uniandes profile"
+      p3: "My research focuses on tensor categories and topological quantum field theories, with special interest in applications to quantum computation."
     },
     research: {
       title: "Research",
@@ -133,8 +127,6 @@ const translations = {
       past1: "Linear Algebra 1 and 2, Abstract Algebra 1, Commutative Algebra",
       past2: "Topology 1, Number Theory, Differential Equations, Logic 1",
       past3: "Introduction to Representation Theory and Introduction to Quantum Computation",
-      materialsTitle: "Materials",
-      materialsText: "Course information and updates can be centralized here or linked to institutional teaching pages.",
       materialsLink: "Teaching page"
     },
     pub: {
@@ -143,9 +135,15 @@ const translations = {
       scholar: "Full list in Google Scholar",
       uniandes: "Uniandes profile"
     },
+    latex: {
+      title: "Notes and LaTeX",
+      intro: "This site supports LaTeX directly using MathJax. You can write inline equations and display equations in notes, handouts, or course pages.",
+      exampleInline: "Inline example: \\( d(X \\otimes Y) = d(X)d(Y) \\).",
+      exampleDisplay: "Display example:",
+      hint: "To add formulas, use delimiters `\\( ... \\)` for inline math and `\\[ ... \\]` for display math in your HTML content."
+    },
     contact: {
       title: "Contact",
-      body: "For collaborations, students, or academic inquiries:",
       emailLabel: "Email:",
       affLabel: "Affiliation:",
       affValue: "Universidad de los Andes",
@@ -183,17 +181,11 @@ function applyTranslations(lang) {
     ? "Cesar Galindo | Pagina academica"
     : "Cesar Galindo | Academic Homepage";
 
+  document.documentElement.lang = lang;
+
   document.querySelectorAll(".lang-btn").forEach((button) => {
     button.classList.toggle("active", button.dataset.lang === lang);
   });
-
-  const menuToggle = document.getElementById("menu-toggle");
-  if (menuToggle) {
-    menuToggle.setAttribute(
-      "aria-label",
-      lang === "es" ? "Mostrar u ocultar navegacion" : "Show or hide navigation"
-    );
-  }
 }
 
 function setLanguage(lang) {
@@ -202,7 +194,6 @@ function setLanguage(lang) {
   }
 
   localStorage.setItem("preferredLanguage", lang);
-  document.documentElement.lang = lang;
   applyTranslations(lang);
 }
 
@@ -211,34 +202,6 @@ function initializeLanguage() {
   const browserPrefersSpanish = navigator.language && navigator.language.toLowerCase().startsWith("es");
   const initial = translations[stored] ? stored : (browserPrefersSpanish ? "es" : "en");
   setLanguage(initial);
-}
-
-function initializeMenu() {
-  const menuToggle = document.getElementById("menu-toggle");
-  const nav = document.getElementById("site-nav");
-
-  if (!menuToggle || !nav) {
-    return;
-  }
-
-  menuToggle.addEventListener("click", () => {
-    const isOpen = nav.classList.toggle("open");
-    menuToggle.setAttribute("aria-expanded", String(isOpen));
-  });
-
-  nav.querySelectorAll("a").forEach((link) => {
-    link.addEventListener("click", () => {
-      nav.classList.remove("open");
-      menuToggle.setAttribute("aria-expanded", "false");
-    });
-  });
-
-  window.addEventListener("resize", () => {
-    if (window.innerWidth > 900) {
-      nav.classList.remove("open");
-      menuToggle.setAttribute("aria-expanded", "false");
-    }
-  });
 }
 
 function initializeLanguageButtons() {
@@ -258,7 +221,6 @@ function initializeYear() {
 
 document.addEventListener("DOMContentLoaded", () => {
   initializeYear();
-  initializeMenu();
   initializeLanguageButtons();
   initializeLanguage();
 });
