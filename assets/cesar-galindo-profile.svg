@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Profile Placeholder</title>
+  <desc id="desc">Professional portrait placeholder with initials CG.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#163b64"/>
+      <stop offset="100%" stop-color="#4474a3"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.2" r="0.7">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#halo)"/>
+
+  <g transform="translate(400 470)">
+    <circle r="148" fill="#f1e8d5" fill-opacity="0.85"/>
+    <circle cy="-48" r="72" fill="#d6c7a7"/>
+    <path d="M-120 145c22-79 74-115 120-115s98 36 120 115" fill="#d6c7a7"/>
+  </g>
+
+  <text x="400" y="905" text-anchor="middle" font-family="Merriweather, Georgia, serif" font-size="120" fill="#f7f4ec" letter-spacing="8">CG</text>
+</svg>
