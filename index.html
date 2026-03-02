@@ -4,148 +4,117 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Academic homepage of Cesar Galindo, Professor at Universidad de los Andes. Research in tensor categories, fusion categories, and topological quantum field theories.">
-  <title>Cesar Galindo | Academic Homepage</title>
+  <title>Cesar Galindo</title>
   <link rel="stylesheet" href="styles.css">
   <script>
     window.MathJax = {
       tex: {
-        inlineMath: [["\\(", "\\)"], ["$", "$"]],
-        displayMath: [["\\[", "\\]"], ["$$", "$$"]]
+        inlineMath: [["\\(", "\\)"]],
+        displayMath: [["\\[", "\\]"]]
       },
       svg: { fontCache: "global" }
     };
   </script>
   <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <script src="script.js" defer></script>
 </head>
 <body>
-  <div class="paper" id="top">
-    <header class="masthead">
-      <div>
-        <h1 data-i18n="hero.title">Cesar Galindo</h1>
-        <p class="role" data-i18n="header.role">Professor, Department of Mathematics | Universidad de los Andes</p>
-        <p class="intro" data-i18n="hero.lead">Professor at Universidad de los Andes. Research in tensor categories, fusion categories, and topological quantum field theories, with applications to quantum computation.</p>
-      </div>
+<div class="page" id="top">
 
-      <div class="lang-switch" aria-label="Language switcher">
-        <button class="lang-btn" data-lang="es" type="button">ES</button>
-        <button class="lang-btn" data-lang="en" type="button">EN</button>
-      </div>
-    </header>
+  <header>
+    <img class="photo"
+         src="assets/foto.jpg"
+         alt="Portrait of Cesar Galindo"
+         loading="lazy">
+    <h1>Cesar Galindo</h1>
+    <p class="role">Professor, Department of Mathematics<br>
+      <a href="https://matematicas.uniandes.edu.co/en/professors/cesar-neyit-galindo-martinez">Universidad de los Andes</a>,
+      Bogotá, Colombia</p>
+    <p>My research is in tensor categories and topological quantum field theories,
+       with applications to quantum computation and topological phases of matter.</p>
+    <p class="quick-links">
+      <a href="assets/cv.pdf" target="_blank" rel="noopener">CV</a>
+      <a href="https://arxiv.org/a/galindo_c_1.html" target="_blank" rel="noopener">arXiv</a>
+      <a href="https://scholar.google.com/citations?user=ozJrzUEAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://orcid.org/0000-0003-1765-555X" target="_blank" rel="noopener">ORCID</a>
+    </p>
+  </header>
 
-    <nav class="quick-nav" aria-label="Main navigation">
-      <a href="#bio" data-i18n="nav.bio">Bio</a>
-      <a href="#research" data-i18n="nav.research">Research</a>
-      <a href="#publications" data-i18n="nav.publications">Publications</a>
-      <a href="#teaching" data-i18n="nav.teaching">Teaching</a>
-      <a href="#latex" data-i18n="nav.notes">Notes & LaTeX</a>
-      <a href="#contact" data-i18n="nav.contact">Contact</a>
-    </nav>
+  <nav aria-label="Page sections">
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <div class="layout">
-      <aside class="sidebar">
-        <figure class="photo-block">
-          <img src="assets/cesar-galindo-profile.svg" alt="Portrait of Cesar Galindo" loading="lazy">
-          <figcaption data-i18n="hero.photoCaption">Professional portrait placeholder. Replace `docs/assets/cesar-galindo-profile.svg` with your final photo.</figcaption>
-        </figure>
+  <hr>
 
-        <section class="sidebar-block">
-          <h2 data-i18n="sidebar.links">Quick Links</h2>
-          <ul class="flat-list">
-            <li><a href="https://sites.google.com/view/cesargalindo/cv" target="_blank" rel="noopener" data-i18n="hero.cv">CV (PDF)</a></li>
-            <li><a href="https://scholar.google.com/citations?user=wm6d7Q4AAAAJ&hl=en" target="_blank" rel="noopener" data-i18n="hero.scholar">Google Scholar</a></li>
-            <li><a href="https://orcid.org/0000-0003-1765-555X" target="_blank" rel="noopener">ORCID</a></li>
-            <li><a href="https://matematicas.uniandes.edu.co/en/professors/cesar-neyit-galindo-martinez" target="_blank" rel="noopener" data-i18n="hero.uniandes">Uniandes Profile</a></li>
-          </ul>
-        </section>
+  <section id="bio">
+    <p>I am a professor in the <a href="https://matematicas.uniandes.edu.co">Department of Mathematics</a>
+       at Universidad de los Andes (Bogotá, Colombia).</p>
+    <p>I received my Ph.D. in Mathematics from
+       <a href="https://www.famaf.unc.edu.ar" target="_blank" rel="noopener">Universidad Nacional de Córdoba</a>
+       (Argentina, 2009) and my B.Sc. in Mathematics from
+       <a href="https://ciencias.unal.edu.co" target="_blank" rel="noopener">Universidad Nacional de Colombia</a>
+       (2005).</p>
+  </section>
 
-        <section class="sidebar-block" id="contact">
-          <h2 data-i18n="contact.title">Contact</h2>
-          <ul class="flat-list contact-list">
-            <li><span data-i18n="contact.emailLabel">Email:</span> <a href="mailto:cn.galindo1116@uniandes.edu.co">cn.galindo1116@uniandes.edu.co</a></li>
-            <li><span data-i18n="contact.affLabel">Affiliation:</span> <span data-i18n="contact.affValue">Universidad de los Andes</span></li>
-            <li><span data-i18n="contact.officeLabel">Office:</span> <span data-i18n="contact.officeValue">H-410</span></li>
-            <li><span data-i18n="contact.extLabel">Extension:</span> <span>3081</span></li>
-            <li><span data-i18n="contact.locLabel">Location:</span> <span data-i18n="contact.locValue">Bogotá, Colombia</span></li>
-          </ul>
-        </section>
+  <hr>
 
-        <section class="sidebar-block subtle-note">
-          <p data-i18n="hero.note">Last updated: March 2026. This first version was built from public information in Uniandes, Google Scholar, ORCID, and your previous website.</p>
-        </section>
-      </aside>
+  <section id="research">
+    <h2>Research</h2>
+    <p>My work is centered on the structure and classification of
+       <strong>fusion and braided tensor categories</strong>,
+       their connections to <strong>topological quantum field theories</strong>,
+       and applications to <strong>topological quantum computation</strong>.</p>
+    <ul>
+      <li><strong>Fusion and braided fusion categories:</strong>
+          Structure, classification, and modular data of fusion categories,
+          including weakly integral, super-modular, and \(G\)-crossed settings.</li>
+      <li><strong>Topological quantum field theory:</strong>
+          Categorical symmetries, Turaev–Viro and Reshetikhin–Turaev invariants,
+          modular extensions, and topological phases.</li>
+      <li><strong>Quantum computation:</strong>
+          Braid group representations from fusion categories,
+          anyonic models, and quantum error correction in Kitaev's model.</li>
+    </ul>
+  </section>
 
-      <main class="content">
-        <section id="bio">
-          <h2 data-i18n="bio.title">Bio</h2>
-          <p data-i18n="bio.p1">I am a professor in the Department of Mathematics at Universidad de los Andes (Bogotá, Colombia).</p>
-          <p data-i18n="bio.p2">I received a Ph.D. in Mathematics from Universidad Nacional de Córdoba (Argentina, 2009) and a B.Sc. in Mathematics from Universidad Nacional de Colombia (2005).</p>
-          <p data-i18n="bio.p3">My research focuses on tensor categories and topological quantum field theories, with special interest in applications to quantum computation.</p>
-        </section>
+  <hr>
 
-        <section id="research">
-          <h2 data-i18n="research.title">Research</h2>
-          <p data-i18n="research.intro">Main directions of my current work.</p>
-          <ul>
-            <li><strong data-i18n="research.r1t">Tensor and Fusion Categories:</strong> <span data-i18n="research.r1d">Structure and classification problems in fusion and braided fusion categories, including weakly integral and super-modular settings.</span></li>
-            <li><strong data-i18n="research.r2t">Topological Quantum Field Theory:</strong> <span data-i18n="research.r2d">Modular data, categorical symmetries, and constructions related to topological phases and topological quantum field theories.</span></li>
-            <li><strong data-i18n="research.r3t">Quantum Computation Connections:</strong> <span data-i18n="research.r3d">Applications of categorical and algebraic methods to quantum information, including braid representations and quantum error correction contexts.</span></li>
-          </ul>
-        </section>
+  <section id="publications">
+    <h2>Publications</h2>
+    <p>
+      <a href="publications.html">Full list</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://arxiv.org/a/galindo_c_1.html" target="_blank" rel="noopener">arXiv</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://scholar.google.com/citations?user=ozJrzUEAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://mathscinet.ams.org/mathscinet/search/publications.html?pg4=AUCN&s4=galindo%2Cc&dr=all" target="_blank" rel="noopener">MathSciNet</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://orcid.org/0000-0003-1765-555X" target="_blank" rel="noopener">ORCID</a>
+    </p>
+  </section>
 
-        <section id="publications">
-          <h2 data-i18n="pub.title">Selected Publications</h2>
-          <p data-i18n="pub.intro">A short curated list. For the complete list, see Google Scholar and ORCID.</p>
-          <ol class="pub-list">
-            <li>Galindo, C., Mora, G., Rowell, E.C. (2024). <a href="https://doi.org/10.1007/s00220-024-05097-1" target="_blank" rel="noopener">Braided Zestings of Verlinde Modular Categories and Their Modular Data</a>. <em>Communications in Mathematical Physics</em>.</li>
-            <li>Delaney, C., Galindo, C., Plavnik, J.Y., Rowell, E.C., Zhang, Q. (2021). <a href="https://doi.org/10.1007/s00220-021-04002-4" target="_blank" rel="noopener">Braided zesting and its applications</a>. <em>Communications in Mathematical Physics</em>.</li>
-            <li>Bruillard, P., Galindo, C., Ng, S.-H., Plavnik, J.Y., Rowell, E.C., Wang, Z. (2020). <a href="https://doi.org/10.1007/s10468-019-09873-9" target="_blank" rel="noopener">Classification of super-modular categories by rank</a>. <em>Algebras and Representation Theory</em>.</li>
-            <li>Bruillard, P., Galindo, C., Hagge, T., Ng, S.-H., Plavnik, J.Y., Rowell, E.C., Wang, Z. (2017). <a href="https://doi.org/10.1063/1.4982048" target="_blank" rel="noopener">Fermionic modular categories and the 16-fold way</a>. <em>Journal of Mathematical Physics</em>.</li>
-          </ol>
-          <p class="inline-links">
-            <a href="https://scholar.google.com/citations?user=wm6d7Q4AAAAJ&hl=en" target="_blank" rel="noopener" data-i18n="pub.scholar">Full list in Google Scholar</a>
-            <span> | </span>
-            <a href="https://orcid.org/0000-0003-1765-555X" target="_blank" rel="noopener">ORCID</a>
-            <span> | </span>
-            <a href="https://matematicas.uniandes.edu.co/en/professors/cesar-neyit-galindo-martinez" target="_blank" rel="noopener" data-i18n="pub.uniandes">Uniandes profile</a>
-          </p>
-        </section>
+  <hr>
 
-        <section id="teaching">
-          <h2 data-i18n="teaching.title">Teaching</h2>
-          <h3 data-i18n="teaching.currentTitle">Recent Courses at Uniandes</h3>
-          <ul>
-            <li data-i18n="teaching.current1">Vector Calculus (2022-I, Undergraduate)</li>
-            <li data-i18n="teaching.current2">Differential Calculus (2021-I, Undergraduate)</li>
-          </ul>
-          <h3 data-i18n="teaching.pastTitle">Selected Previous Courses</h3>
-          <ul>
-            <li data-i18n="teaching.past1">Linear Algebra 1 and 2, Abstract Algebra 1, Commutative Algebra</li>
-            <li data-i18n="teaching.past2">Topology 1, Number Theory, Differential Equations, Logic 1</li>
-            <li data-i18n="teaching.past3">Introduction to Representation Theory and Introduction to Quantum Computation</li>
-          </ul>
-          <p class="inline-links"><a href="https://sites.google.com/view/cesargalindo/teaching" target="_blank" rel="noopener" data-i18n="teaching.materialsLink">Teaching page</a></p>
-        </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:cn.galindo1116@uniandes.edu.co">cn.galindo1116@uniandes.edu.co</a></li>
+      <li><strong>Office:</strong> H-410, ext. 3081</li>
+      <li><strong>Address:</strong> Departamento de Matemáticas, Universidad de los Andes,
+          Carrera 1 No. 18A-12, Bogotá, Colombia</li>
+    </ul>
+  </section>
 
-        <section id="latex">
-          <h2 data-i18n="latex.title">Notes and LaTeX</h2>
-          <p data-i18n="latex.intro">This site supports LaTeX directly using MathJax. You can write inline equations and display equations in notes, handouts, or course pages.</p>
-          <div class="latex-box">
-            <p data-i18n="latex.exampleInline">Inline example: \( d(X \otimes Y) = d(X)d(Y) \).</p>
-            <p data-i18n="latex.exampleDisplay">Display example:</p>
-            \[
-              \dim(\mathcal{C}) = \sum_{i \in I} d_i^2, \qquad S^2 = C.
-            \]
-          </div>
-          <p data-i18n="latex.hint">To add formulas, use delimiters `\( ... \)` for inline math and `\[ ... \]` for display math in your HTML content.</p>
-        </section>
-      </main>
-    </div>
+  <hr>
 
-    <footer class="site-footer">
-      <p>© <span id="year"></span> Cesar Galindo</p>
-      <a href="#top" data-i18n="footer.top">Back to top</a>
-    </footer>
-  </div>
+  <footer>
+    <p class="subtle-note">Last updated: March 2026.</p>
+    <p>© <span id="year"></span> Cesar Galindo &nbsp;·&nbsp; <a href="#top">Back to top</a></p>
+  </footer>
+
+</div>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
 </html>
